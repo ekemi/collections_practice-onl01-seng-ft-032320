@@ -71,5 +71,5 @@ array.each_with_index |alue, index|
       value << "s"
     end
  end
-     return empty       
+     return empty
 end
