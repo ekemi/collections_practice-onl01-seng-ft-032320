@@ -65,7 +65,8 @@ array.each_with_index do |value, index|
     if index = 2
        empty << value
     else
-       value << "s"
+      empty << (value << "s")
+
     end
  end
      return empty
