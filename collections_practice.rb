@@ -39,3 +39,12 @@ def  kesha_maker(array)
    end
       return empty
 end
+
+def find_a(array)
+   empty = []
+   array.each do |value|
+     if value.start_with("a")
+        empty<< value
+     end
+     return value    
+end
