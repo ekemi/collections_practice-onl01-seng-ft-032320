@@ -43,7 +43,7 @@ end
 def find_a(array)
    empty = []
    array.each do |value|
-     if value.start_with("a")
+     if value.start_with?("a")
         empty<< value
      end
    end   
