@@ -55,20 +55,17 @@ def sum_array(array)
    array.each do |value|
        sum = sum +value
    end
-
-       return sum
-
+     return sum
 end
 def add_s(array)
-
 empty = []
 
-array.each_with_index |alue, index|
+array.each_with_index do |value, index|
 
     if index = 2
        empty << value
     else
-      value << "s"
+       value << "s"
     end
  end
      return empty
