@@ -47,5 +47,5 @@ def find_a(array)
         empty<< value
      end
    end
-     return value
+     return empty
 end
