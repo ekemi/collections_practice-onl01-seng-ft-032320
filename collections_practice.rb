@@ -46,6 +46,6 @@ def find_a(array)
      if value.start_with?("a")
         empty<< value
      end
-   end   
+   end
      return value
 end
