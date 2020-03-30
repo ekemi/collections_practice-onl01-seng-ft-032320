@@ -49,3 +49,13 @@ def find_a(array)
    end
      return empty
 end
+def sum_array(array)
+
+   sum = 0
+   array.each do |value|
+       sum = sum +value
+   end
+
+       return sum
+
+end
