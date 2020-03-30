@@ -59,3 +59,17 @@ def sum_array(array)
        return sum
 
 end
+def add_s(array)
+
+empty = []
+
+array.each_with_index |alue, index|
+
+    if index = 2
+       empty << value
+    else
+      value << "s"
+    end
+ end
+     return empty       
+end
