@@ -62,7 +62,7 @@ empty = []
 
 array.each_with_index do |value, index|
 
-    if index = 2
+    if index = 1
        empty << value
     else
       empty << (value << "s")
